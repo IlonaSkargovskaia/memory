@@ -1,0 +1,74 @@
+.header__block{
+    padding: 10px 0;
+    background-color: red;
+    margin-bottom: 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+h3{
+    margin: 0;
+}
+
+p{
+    margin: 5px 0;
+}
+
+.points__block{
+    padding: 1rem 0;
+    background: linear-gradient(to left top,#00f,red) 50% fixed;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0.25px 0.25px 0.25px #000;
+    width: 100%;
+    text-align: center;
+}
+
+.score__block{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    transition: box-shadow .1s ease-in-out;
+    text-align: left;
+    width: 230px;
+    margin: 2rem;
+}
+
+.card:hover{
+    box-shadow: 0 12px 24px #999, 0 12px 24px #999;
+    cursor: pointer;
+}
+
+.card>.card__img{
+    text-align: center;
+    height: 250px;
+    overflow: hidden;
+}
+
+.card>.card__img>img {
+    max-width: 200px;
+}
+
+.card__desc{
+    text-align: center;
+}
